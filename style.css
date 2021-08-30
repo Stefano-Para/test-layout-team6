@@ -63,11 +63,12 @@ a {
     width: 25%;
     align-self: stretch;
     transition: 1s;
-    clip-path: polygon(30% 0, 100% 0%, 75% 100%, 0% 100%);
+    /* clip-path: polygon(30% 0, 100% 0%, 75% 100%, 0% 100%); */
 }
 .section:hover {
     width: 35%;
     z-index: 0;
+    box-shadow: 5px 5px 10px;
 }
 .section01 {
     background-color: #4E3D84;
